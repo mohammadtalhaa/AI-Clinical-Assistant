@@ -62,5 +62,5 @@ Once deployed, your app will be available at:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your-username/clinical-decision-assistant.git
-cd clinical-decision-assistant
+git clone https://github.com/mohammadtalhaa/ai-clinical-assistant.git
+cd ai-clinical-assistant
