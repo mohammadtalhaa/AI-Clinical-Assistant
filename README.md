@@ -45,9 +45,8 @@ The system outputs a structured JSON assessment: differential diagnoses, risk le
 ## 🚀 Live Demo (Streamlit Cloud)
 
 Once deployed, your app will be available at:  
-`https://your-username-streamlit-app-name.streamlit.app`
+`(https://ai-clinical-assistant.streamlit.app/)`
 
-(Replace with your actual URL)
 
 ---
 
