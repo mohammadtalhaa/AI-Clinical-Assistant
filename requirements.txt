@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────
+# AI Clinical Decision Assistant — Requirements
+# Python 3.10+
+# ─────────────────────────────────────────────────────────────
+
+# Core
+streamlit>=1.35.0
+
+# LLM
+openai>=1.30.0
+
+# RAG / Embeddings (optional but strongly recommended)
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+numpy>=1.26.0
+
+# OCR — PDF
+PyMuPDF>=1.24.0              # fitz — fast PDF text extraction
+
+# OCR — Image (choose one or both)
+Pillow>=10.3.0               # PIL for image handling
+pytesseract>=0.3.10          # Tesseract wrapper (requires Tesseract binary)
+# easyocr>=1.7.1             # Uncomment if Tesseract is unavailable (heavier install)
+
+# ─────────────────────────────────────────────────────────────
+# INSTALL NOTES:
+#
+# 1. pip install -r requirements.txt
+#
+# 2. For Tesseract OCR (Linux):
+#    sudo apt-get install tesseract-ocr
+#
+#    For macOS:
+#    brew install tesseract
+#
+#    For Windows:
+#    Download from https://github.com/UB-Mannheim/tesseract/wiki
+#    Then set: pytesseract.pytesseract.tesseract_cmd = r"C:\...\tesseract.exe"
+#
+# 3. Run the app:
+#    streamlit run app.py
+#
+# 4. Optional: set OPENAI_API_KEY env var or enter key in sidebar
+# ─────────────────────────────────────────────────────────────
